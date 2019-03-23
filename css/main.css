@@ -4,7 +4,7 @@
 /* Mobile Layout: 320px */
 /* Wide Mobile Layout: 480px */
 /* =================================== */
-/*  Basic Style 
+/*  Basic Style
 /* =================================== */
 ::-moz-selection {
   /* Code for Firefox */
@@ -1899,9 +1899,9 @@ nav {
   }
 }
 
-nav.hide {
+/* nav.hide {
   transform: scale(0);
-}
+} */
 
 nav a {
   font-size: 12px;
@@ -1935,7 +1935,7 @@ nav a:hover {
 }
 
 .dup-body {
-  background: #e0003b;
+  background: #000000;
 }
 
 .dup-body-wrap {
@@ -2053,7 +2053,7 @@ nav a:hover {
 }
 
 .banner-content h1 {
-  font-size: 42px;
+  font-size: 100px;
   font-weight: 600;
   line-height: 1.15em;
   margin-bottom: 20px;
@@ -2061,7 +2061,7 @@ nav a:hover {
 
 @media (max-width: 991px) {
   .banner-content h1 {
-    font-size: 36px;
+    font-size: 90px;
   }
 }
 
