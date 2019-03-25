@@ -8,12 +8,12 @@
 /* =================================== */
 ::-moz-selection {
   /* Code for Firefox */
-  background-color: #e0003b;
+  background-color: #2c368a;
   color: #fff;
 }
 
 ::selection {
-  background-color: #e0003b;
+  background-color: #2c368a;
   color: #fff;
 }
 
@@ -553,6 +553,7 @@ td, th {
 
 .text-white {
   color: #fff;
+  align: center;
 }
 
 .transition {
@@ -616,7 +617,22 @@ td, th {
   -moz-align-items: center;
   align-items: center;
 }
+.column{
 
+  float: center;
+ width: 33.33%;
+ padding-top: : 0px;
+ padding-left: 100px;
+   align-content: center;
+
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+
+
+}
 .flex-right {
   -webkit-box-pack: end;
   -ms-flex-pack: end;
@@ -886,13 +902,13 @@ h1, h2, h3, h4, h5, h6 {
 
 .genric-btn.primary {
   color: #fff;
-  background: #df003a;
+  background: #2c368a;
   border: 1px solid transparent;
 }
 
 .genric-btn.primary:hover {
-  color: #df003a;
-  border: 1px solid #df003a;
+  color: #2c368a;
+  border: 1px solid #2c368a;
   background: #fff;
 }
 
@@ -1040,7 +1056,7 @@ h1, h2, h3, h4, h5, h6 {
 .generic-blockquote {
   padding: 30px 50px 30px 30px;
   background: #f9f9ff;
-  border-left: 2px solid #df003a;
+  border-left: 2px solid #2c368a;
 }
 
 @media (max-width: 767px) {
@@ -1919,7 +1935,7 @@ nav a {
 }
 
 nav a:hover {
-  color: #e0003b;
+  color: #2c368a;
 }
 
 .white-menubar .menu-bar span {
@@ -1935,7 +1951,7 @@ nav a:hover {
 }
 
 .dup-body {
-  background: #000000;
+  background: #363844;
 }
 
 .dup-body-wrap {
@@ -1944,10 +1960,10 @@ nav a:hover {
   position: relative;
 }
 
-@media (max-width: 767px) {
+/* @media (max-width: 767px) {
   .dup-body-wrap {
     margin: 30px;
-  }
+  } */
 }
 
 @media (max-width: 575px) {
@@ -1969,7 +1985,7 @@ nav a:hover {
 }
 
 .section-gap {
-  padding: 120px 0;
+  padding: 50px 0;
 }
 
 .primary-btn {
@@ -1978,7 +1994,7 @@ nav a:hover {
   padding-right: 60px;
   border-radius: 25px;
   background: transparent;
-  border: 1px solid #e0003b;
+  border: 1px solid #2c368a;
   color: #222222;
   display: inline-block;
   font-weight: 500;
@@ -2009,7 +2025,7 @@ nav a:hover {
 }
 
 .primary-btn:hover {
-  background: #e0003b;
+  background: #2c368a;
   color: #fff;
 }
 
@@ -2029,11 +2045,11 @@ nav a:hover {
 
 .primary-btn.white:hover {
   background: #fff;
-  color: #e0003b;
+  color: #2c368a;
 }
 
 .primary-btn.white:hover span {
-  color: #e0003b;
+  color: #2c368a;
 }
 
 .banner-area {
@@ -2093,7 +2109,7 @@ nav a:hover {
 }
 
 .generic-banner.element-banner {
-  background: #e0003b;
+  background: #2c368a;
 }
 
 .generic-banner .height {
@@ -2134,7 +2150,7 @@ nav a:hover {
 }
 
 .studio-area .overlay-bg {
-  background: rgba(224, 0, 59, 0.8);
+  background: #2c368a;
 }
 
 .studio-area .studio-thumb {
@@ -2244,7 +2260,7 @@ nav a:hover {
 }
 
 .achivement-area .single-achivement:hover .achivement-link {
-  background: #e0003b;
+  background: #2c368a;
 }
 
 .achivement-area .single-achivement:hover .achivement-link i {
@@ -2257,11 +2273,12 @@ nav a:hover {
 }
 
 .video-area .overlay-bg {
-  background: rgba(224, 0, 59, 0.8);
+  background: #2c368a;
 }
 
 .video-area .video-content {
-  padding: 200px 0;
+  padding:
+  40px 0;
   text-align: center;
   position: relative;
   z-index: 2;
@@ -2291,7 +2308,7 @@ nav a:hover {
 }
 
 .single-progressbar .progress-bar {
-  background: #e0003b;
+  background: #2c368a;
   height: 5px;
   line-height: 5px;
 }
@@ -2302,7 +2319,7 @@ nav a:hover {
 }
 
 .carousel-area .overlay-bg {
-  background: rgba(224, 0, 59, 0.8);
+  background: #2c368a;
 }
 
 .active-bottle-carousel {
@@ -2387,7 +2404,7 @@ nav a:hover {
 
 .contact-area {
   background: #fff;
-  padding: 90px 0 120px 0;
+  padding: 20px 0 0px 0;
 }
 
 .contact-area .single-address {
@@ -2423,7 +2440,7 @@ nav a:hover {
   top: 50%;
   transform: translateY(-50%);
   right: 5px;
-  background: #e0003b;
+  background: #2c368a;
   color: #fff;
 }
 
@@ -2469,7 +2486,7 @@ nav a:hover {
 }
 
 .footer-widget-area .overlay-bg {
-  background: rgba(224, 0, 59, 0.8);
+  background: #2c368a;
 }
 
 .footer-widget-area .container {
@@ -2564,7 +2581,7 @@ nav a:hover {
 }
 
 .footer-social a:hover i {
-  color: #e0003b;
+  color: #2c368a;
 }
 
 .about-generic-area {
