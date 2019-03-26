@@ -620,10 +620,10 @@ td, th {
 .column{
 
   float: center;
- width: 33.33%;
+ width: 50.33%;
  padding-top: : 0px;
  padding-left: 100px;
-   align-content: center;
+
 
 }
 .row::after {
