@@ -184,7 +184,9 @@
 		<div class="white-bg">
 			<div class="container">
 				<div class="section-top-border" id='day1' align="center">
-					<h3 class="mb-30">Day 1</h3>
+
+					<h3 class="mb-30" >Day 1</h3>
+
 					<div class="row" >
 						<!-- <div class="col-md-3"> -->
 							<!-- <img src="img/d.jpg" alt="" class="img-fluid"> -->
@@ -284,6 +286,7 @@
 <div class="section-top-border">
 	<!-- <h3 class="mb-30">Block Quotes</h3> -->
 	<div class="row">
+		<div class="col-lg-3"></div>
 		<div class="col-lg-6" >
 			<blockquote class="generic-blockquote" align="left";>4. The circuit work was continued and the following components were used for the final product.
 			<br> <br> -	Condenser microphone x3
@@ -379,13 +382,61 @@ noticed that the buzzeer noise was loud and noticable by all.   </p>
 											<img src="img/AC1.png" width="50%" height="auto"> <br> <br><br>
 											<p>2.3  Final circuit of thee system </p>
 											<img src="img/CC1.jpg" width="50%" height="auto"> <br> <br>
-											<img src="img/FinalC.jpg" width="50%" height="auto"> <br> <br>
+											<img src="img/FinalC.jpg" width="50%" height="auto"> <div class="section-top-border">
+												<!-- <h3 class="mb-30">Block Quotes</h3> -->
+												<div class="row">
+													<div class="col-lg-2"></div>
+													<div class="col-lg-8">
+														<blockquote class="generic-blockquote" align="left";> 3. The code used:<br>
+															const int microphonePin= A0; //the microphone positive terminal will connect to analog pin A0 to be read<br>
+															const int ledPin=13; //the code will flash the LED connected to pin 13<br>
+															const int buzzpin=9;<br>
+
+															int sample; //the variable that will hold the value read from the microphone each time<br>
+
+															const int threshold=520;//the microphone threshold sound level at which the LED will turn on<br>
+															const int threshold2=600;<br>
+
+															void setup() {<br>
+		  												pinMode(buzzpin, OUTPUT);<br>
+															pinMode (ledPin, OUTPUT);//sets digital pin 13 as output<br>
+															Serial.begin(9600); //sets the baud rate at 9600 so we can check the values the microphone is obtaining on the Serial Monitor<br>
+														}<br>
+
+														void loop(){<br>
+
+															sample= analogRead(microphonePin); //the arduino takes continuous readings from the microphone<br>
+															//sample = (2*sample)*(2*sample);<br>
+
+		 												Serial.println(sample);<br>
+
+														if (sample > threshold)<br>
+														{<br>
+															digitalWrite (ledPin, HIGH); //if the reading is greater than the threshold value, LED turns on<br>
+															delay (100); //LED stays on for a half a second<br>
+															digitalWrite (ledPin, LOW); //LED turns off<br>
+														}<br>
+														else{ digitalWrite(ledPin, LOW); }<br>
+
+														if (sample > threshold2)<br>
+														{<br>
+															digitalWrite (buzzpin, HIGH); //if the reading is greater than the threshold value, LED turns on<br>
+															delay (100); //LED stays on for a half a second //LED turns off<br>
+															digitalWrite (buzzpin, LOW);<br>
+														}<br>
+		 											delay(10);}<br>
+
+														</blockquote>
+													</div>
+												</div>
+											</div>
 										<!-- <br><br>	<p>It was then made using sound sensor, LEDs, buzzer, Arduino Uno and tested for its capacity. </p> -->
-										<br><br>
-										<p>3. The final form was cut using CNC machine on a black acrylic</p>
+
+										<p>4. The final form was cut using CNC machine on a black acrylic</p>
 										<img src="img/IG.jpeg" width="50%" height="auto"><br>
 
-										<p>	 <br> The business for this product was also discussed in this step </p>
+										<p>	 <br> The business for this product was also discussed in this step;
+										     </p>
 								</div>
 									</div>
 								</div>
@@ -440,11 +491,26 @@ noticed that the buzzeer noise was loud and noticable by all.   </p>
 																						<video width="100%" height="auto" controls> <source src="img/FC.mp4">
 																							</video>
 																							<p>Working of the final product; Shhh</p>
-	<p>	<br> <br>Final Conc</p>
+																							<p>	<br> <br>Final Conc</p>
 																				</div>
 
 																					</div>
 																				</div>
+
+																				<div class="section-top-border"  align="center">
+																					<h3 class="mb-30"> Pricing</h3>
+																					<div class="row" >
+																						<div align="center"  >
+																						<div class="col-md-9 mt-sm-20">
+																						</div>
+																						<img src="img/Pric.png" width="60%" height="auto"> <br>
+
+																						<br>
+																				</div>
+																					</div>
+																				</div>
+
+
 
 				<!-- <div class="section-top-border text-right">
 					<h3 class="mb-30">Right Aligned</h3>

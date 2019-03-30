@@ -8,12 +8,12 @@
 /* =================================== */
 ::-moz-selection {
   /* Code for Firefox */
-  background-color: #2c368a;
+  background-color: #db3531;
   color: #fff;
 }
 
 ::selection {
-  background-color: #2c368a;
+  background-color: #db3531;
   color: #fff;
 }
 
@@ -902,13 +902,13 @@ h1, h2, h3, h4, h5, h6 {
 
 .genric-btn.primary {
   color: #fff;
-  background: #2c368a;
+  background: #db3531;
   border: 1px solid transparent;
 }
 
 .genric-btn.primary:hover {
-  color: #2c368a;
-  border: 1px solid #2c368a;
+  color: #db3531;
+  border: 1px solid #db3531;
   background: #fff;
 }
 
@@ -1056,7 +1056,7 @@ h1, h2, h3, h4, h5, h6 {
 .generic-blockquote {
   padding: 30px 50px 30px 30px;
   background: #f9f9ff;
-  border-left: 2px solid #2c368a;
+  border-left: 2px solid #db3531;
 }
 
 @media (max-width: 767px) {
@@ -1935,7 +1935,7 @@ nav a {
 }
 
 nav a:hover {
-  color: #2c368a;
+  color: #db3531;
 }
 
 .white-menubar .menu-bar span {
@@ -1994,7 +1994,7 @@ nav a:hover {
   padding-right: 60px;
   border-radius: 25px;
   background: transparent;
-  border: 1px solid #2c368a;
+  border: 1px solid #db3531;
   color: #222222;
   display: inline-block;
   font-weight: 500;
@@ -2025,7 +2025,7 @@ nav a:hover {
 }
 
 .primary-btn:hover {
-  background: #2c368a;
+  background: #db3531;
   color: #fff;
 }
 
@@ -2045,11 +2045,11 @@ nav a:hover {
 
 .primary-btn.white:hover {
   background: #fff;
-  color: #2c368a;
+  color: #db3531;
 }
 
 .primary-btn.white:hover span {
-  color: #2c368a;
+  color: #db3531;
 }
 
 .banner-area {
@@ -2109,7 +2109,7 @@ nav a:hover {
 }
 
 .generic-banner.element-banner {
-  background: #2c368a;
+  background: #db3531;
 }
 
 .generic-banner .height {
@@ -2150,7 +2150,7 @@ nav a:hover {
 }
 
 .studio-area .overlay-bg {
-  background: #2c368a;
+  background: #db3531;
 }
 
 .studio-area .studio-thumb {
@@ -2260,7 +2260,7 @@ nav a:hover {
 }
 
 .achivement-area .single-achivement:hover .achivement-link {
-  background: #2c368a;
+  background: #db3531;
 }
 
 .achivement-area .single-achivement:hover .achivement-link i {
@@ -2273,7 +2273,7 @@ nav a:hover {
 }
 
 .video-area .overlay-bg {
-  background: #2c368a;
+  background: #db3531;
 }
 
 .video-area .video-content {
@@ -2308,7 +2308,7 @@ nav a:hover {
 }
 
 .single-progressbar .progress-bar {
-  background: #2c368a;
+  background: #db3531;
   height: 5px;
   line-height: 5px;
 }
@@ -2319,7 +2319,7 @@ nav a:hover {
 }
 
 .carousel-area .overlay-bg {
-  background: #2c368a;
+  background: #db3531;
 }
 
 .active-bottle-carousel {
@@ -2440,7 +2440,7 @@ nav a:hover {
   top: 50%;
   transform: translateY(-50%);
   right: 5px;
-  background: #2c368a;
+  background: #db3531;
   color: #fff;
 }
 
@@ -2486,7 +2486,7 @@ nav a:hover {
 }
 
 .footer-widget-area .overlay-bg {
-  background: #2c368a;
+  background: #db3531;
 }
 
 .footer-widget-area .container {
@@ -2581,7 +2581,7 @@ nav a:hover {
 }
 
 .footer-social a:hover i {
-  color: #2c368a;
+  color: #db3531;
 }
 
 .about-generic-area {
